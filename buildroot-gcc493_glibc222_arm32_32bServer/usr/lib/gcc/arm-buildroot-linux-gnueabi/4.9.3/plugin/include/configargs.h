@@ -1,0 +1,7 @@
+/* Generated automatically. */
+static const char configuration_arguments[] = "./configure --prefix=/mtkeda/bbn/trendchip/buildroot-gcc493_glibc222_arm32_32bServer/usr --sysconfdir=/mtkeda/bbn/trendchip/buildroot-gcc493_glibc222_arm32_32bServer/etc --enable-static --target=arm-buildroot-linux-gnueabi --with-sysroot=/mtkeda/bbn/trendchip/buildroot-gcc493_glibc222_arm32_32bServer/usr/arm-buildroot-linux-gnueabi/sysroot --disable-__cxa_atexit --with-gnu-ld --disable-libssp --disable-multilib --with-gmp=/mtkeda/bbn/trendchip/buildroot-gcc493_glibc222_arm32_32bServer/usr --with-mpfr=/mtkeda/bbn/trendchip/buildroot-gcc493_glibc222_arm32_32bServer/usr --with-pkgversion='Buildroot 2015.08.1-gd814875' --with-bugurl=http://bugs.buildroot.net/ --disable-libquadmath --enable-tls --enable-plugins --enable-lto --disable-libmudflap --enable-threads --with-mpc=/mtkeda/bbn/trendchip/buildroot-gcc493_glibc222_arm32_32bServer/usr --without-isl --without-cloog --with-float=soft --disable-decimal-float --with-abi=aapcs-linux --with-cpu=cortex-a5 --with-float=soft --with-mode=arm --enable-languages=c,c++ --enable-poison-system-directories --with-build-time-tools=/mtkeda/bbn/trendchip/buildroot-gcc493_glibc222_arm32_32bServer/usr/arm-buildroot-linux-gnueabi/bin --enable-shared --disable-libgomp --without-fp";
+static const char thread_model[] = "posix";
+
+static const struct {
+  const char *name, *value;
+} configure_default_options[] = { { "abi", "aapcs-linux" }, { "cpu", "cortex-a5" }, { "float", "soft" }, { "mode", "arm" }, { "tls", "gnu" } };

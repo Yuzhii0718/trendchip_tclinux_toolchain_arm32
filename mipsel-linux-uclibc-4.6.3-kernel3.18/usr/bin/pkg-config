@@ -1,0 +1,2 @@
+#!/bin/sh
+PKG_CONFIG_LIBDIR=${PKG_CONFIG_LIBDIR:-/opt/trendchip/mipsel-linux-uclibc-4.6.3-kernel3.18/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/lib/pkgconfig:/opt/trendchip/mipsel-linux-uclibc-4.6.3-kernel3.18/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/share/pkgconfig} PKG_CONFIG_SYSROOT_DIR=${PKG_CONFIG_SYSROOT_DIR:-/opt/trendchip/mipsel-linux-uclibc-4.6.3-kernel3.18/usr/mipsel-buildroot-linux-uclibc/sysroot} $(dirname $0)/pkgconf  $@
